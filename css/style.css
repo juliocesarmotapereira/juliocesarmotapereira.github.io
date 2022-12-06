@@ -1,0 +1,112 @@
+:root {
+    --primeira-cor: #FFFFFF; 
+    --segunda-cor: #8983832f; 
+    --terceira-cor: #1f1f1f; 
+    --quarta-cor: #d8c5c5; 
+
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;    
+}
+
+body {
+    background-color: var(--terceira-cor);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 3rem;
+}
+
+#foto-Perfil {
+    width: 20%;
+    border-radius: 50%;
+    border: 3px solid var(--segunda-cor);
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 24px;
+    color: var(--primeira-cor);
+}
+
+p {
+    font-size: 16px;
+    color: var(--primeira-cor);
+}
+
+/* Links Redes Contatos */
+.linkRedesContatos {
+    display: flex;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+
+li {
+    margin-bottom: 5px;
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;    
+    color: var(--quarta-cor);
+}
+
+a:hover {
+    color: #0eb8ecaf;
+    transition: 0.8s;
+    font-size: 18px;
+}
+
+
+/* Logotipos Tecnologias */
+.container-Logos {
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+.logosTech {
+    display: flex;    
+}
+
+
+#logo-Tamanho {
+    width: 20%;    
+}
+
+
+/* Rodapé */
+footer {
+    margin-top: 2rem;
+    text-align: center;   
+}
+
+h3 {
+    font-size: 12px;
+    color: var(--primeira-cor);
+}
+
+/*
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
+}
