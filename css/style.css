@@ -20,14 +20,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center; 
-    margin-top: 3rem;
+    margin-top: 8rem;
 }
 
 #foto-Perfil {
-    width: 20%;
+    width: 10%;
     border-radius: 50%;
     border: 3px solid var(--segunda-cor);
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
 }
 
 h1 {
@@ -44,13 +44,16 @@ p {
 .linkRedesContatos {
     display: flex;
     gap: 5rem;
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 li {
     margin-bottom: 5px;
     list-style: none;
+}
 
+.github {
+    text-align: center;
 }
 
 a {
@@ -65,25 +68,21 @@ a:hover {
 }
 
 
-/* Logotipos Tecnologias */
-.container-Logos {
-    margin-left: 20%;
-    margin-top: 2%;
+/* Logotipos Tecnologias 
+.container__logos {
+    display: grid; 
+    background: #FFFFFF;    
 }
 
-.logosTech {
-    display: flex;    
-}
-
-
-#logo-Tamanho {
-    width: 20%;    
+.logos___imagem {
+    width: 10%;
 }
 
 
 /* Rodapé */
 footer {
-    margin-top: 2rem;
+    
+    margin-top: 10rem;
     text-align: center;   
 }
 
@@ -94,19 +93,5 @@ h3 {
 
 /*
 @media screen and (max-width: 480px) {
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
-        width: auto;
-    }
-
-    h1 {
-        text-align: center;
-    }
-
-    nav {
-        position: static;
-    }
-
-    .lista-beneficios, .imagem-beneficios {
-        width: 100%;
-    }
+    
 }
